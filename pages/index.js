@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import HomeHeader from '../page-component/Home/HomeHeader'
-import MailMe from '../page-component/Home/MailMe'
-import ExperienceBanner from '../page-component/Home/ExperienceBanner'
-import AboutMeBanner from '../page-component/Home/AboutMeBanner'
+import HomeHeader from '../components/Home/HomeHeader'
+import MailMe from '../components/Home/MailMe'
+import ExperienceBanner from '../components/Home/ExperienceBanner'
+import AboutMeBanner from '../components/Home/AboutMeBanner'
 export default function Home() {
   return (
     <div>
